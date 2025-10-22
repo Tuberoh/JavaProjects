@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Esercizio_22Ottobre{
 
-    Boolean trovato = false;
     public static void main(String[] args) {
 
 
