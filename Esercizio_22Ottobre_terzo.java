@@ -24,12 +24,11 @@ public class Esercizio_22Ottobre_terzo {
 
 
         }
-        if (h < frase.length()) {
-            part = frase.substring(h);
-            System.out.println(part);
-        }
+        part = frase.substring(h);
+        System.out.println(part);
 
 
     }
     
 }
+
