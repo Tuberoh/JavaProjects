@@ -1,0 +1,43 @@
+Scrivere
+     una classe per simulare il comportamento di un orologio. Le
+     variabili di istanza sono ore, minuti, secondi di tipo intero.
+     Scrivere due
+     costruttori (public)
+  Il primo
+     prende come parametri le ore e i minuti, imposta le due variabili di
+     istanza e mette a 0 i secondi.
+
+  Il secondo
+     senza parametri, imposta tutte le variabili di istanza a 0.
+
+
+     Scrivere un
+     metodo aumentaSec che non restituisce niente al chiamante, non ha
+     parametri, incrementa di 1 i secondi e controlla se deve cambiare
+     minuti o ore (considerare che ore va fino a 23 e dopo riparte da 0).
+
+
+     Scrivere i
+     metodi public int getOre() che restituisce al chiamante l’ora,
+     public int getMinuti() che restituisce al chiamante i minuti, public
+     int getSecondi() che restituisce al chiamante i secondi.
+     Scrivere i
+     metodi public void setOre(int o) che imposta l’ora, public void
+     setMinuti(int m) che imposta i minuti public void setSecondi(int s)
+     che imposta i secondi.
+     Scrivere un
+     main che crea due orologi oraCucina con il primo costruttore
+     passando l’ora 10 e i munuti 30 e oraCamera con costruttore senza
+     parametri.
+
+  Visualizza ora minuti e secondi dell’oraCucina e
+     dell’oraCamera.
+
+  Chiede da tastiera di quanti secondi
+     aumentare i due orologi.
+
+  Aumentare i due orologi dei secondi
+     immessi.
+
+  Visualizza ora minuti e secondi dell’oraCucina e
+     dell’oraCamera.
