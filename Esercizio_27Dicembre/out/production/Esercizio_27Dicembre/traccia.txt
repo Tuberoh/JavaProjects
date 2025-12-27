@@ -1,0 +1,19 @@
+La classe Cerchio
+Creare una classe di nome Cerchio, i cui oggetti rappresentano cerchi nel piano. La classe dispone del seguente costruttore  public Cerchio(double r): costruttore per creare un oggetto Cerchio che rappresenta un cerchio di raggio r.
+ public double diametro(): metodo che restituisce il diametro del cerchio rappresentato dall’oggetto ricevente.
+ public double perimetro(): metodo che restituisce il perimetro del cerchio rappresentato dall’oggetto ricevente.
+public double area(): metodo che restituisce l’area del cerchio rappresentato dall’oggetto ricevente.
+Scrivere una classe di nome UsoCerchio, avente soltanto il metodo speciale main. Tale metodo deve svolgere queste azioni:
+1. Fare inserire all’utente tramite tastiera i raggi r1 e r2 di due cerchi nel piano.
+2. Creare due oggetti Cerchio, c1 e c2, di raggio rispettivamente r1 e r2.
+3. Stampare sullo standard output il diametro, il perimetro e l’area dei cerchi rappresentati da c1 e c2.
+
+ La classe Casa
+Progettare la classe Casa con 4 attributi privati:
+L'attributo nome di tipo String; fibraOttica di tipo boolean; (true se presente fibra ottica), numStanze di tipo int; metriQuadrati di tipo double.
+I seguenti metodi pubblici:
+2 costruttori uno senza parametri che assegna “” a nome,  false a fibraOttica 0 agli altri. L’altro costruttore prende come parametri il valore di tutti gli attributi e li assegna.
+Metodi get e set per tutti gli attributi;
+Metodo calcolaprezzo() che restituisce il prezzo dell’immobile(double)sapendo che le case costano 2000 euro al metroquadro più 5% se è presente la fibra ottica.
+
+Infine, creare un secondo file TestCasa.java  dove poter creare l'oggetto casa1 di classe Casa passando il nome “casa-rosa”, 5 stanze 100 mq e senza fibra ottica. Visualizzare il prezzo della casa creata

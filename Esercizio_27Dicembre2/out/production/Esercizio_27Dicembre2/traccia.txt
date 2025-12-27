@@ -1,0 +1,9 @@
+ La classe Casa
+Progettare la classe Casa con 4 attributi privati:
+L'attributo nome di tipo String; fibraOttica di tipo boolean; (true se presente fibra ottica), numStanze di tipo int; metriQuadrati di tipo double.
+I seguenti metodi pubblici:
+2 costruttori uno senza parametri che assegna “” a nome,  false a fibraOttica 0 agli altri. L’altro costruttore prende come parametri il valore di tutti gli attributi e li assegna.
+Metodi get e set per tutti gli attributi;
+Metodo calcolaprezzo() che restituisce il prezzo dell’immobile(double)sapendo che le case costano 2000 euro al metroquadro più 5% se è presente la fibra ottica.
+
+Infine, creare un secondo file TestCasa.java  dove poter creare l'oggetto casa1 di classe Casa passando il nome “casa-rosa”, 5 stanze 100 mq e senza fibra ottica. Visualizzare il prezzo della casa creata
