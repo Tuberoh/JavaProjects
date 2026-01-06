@@ -1,0 +1,11 @@
+Definire una classe di nome Punto, i cui oggetti rappresentano punti nel piano,
+specificati attraverso due coordinate cartesiane, x ed y.
+ La classe deve avere un metodo costruttore: crea un oggetto della classe con le coordinate specificate
+ public double distanzaDa (Punto p) restituisce la distanza tra il punto corrente e quello passato come parametro.
+public boolean equals (Punto p)
+
+ restituisce true se il punto corrente coincide con quello passato come parametro
+public String toString ( )
+
+ restituisce una descrizione sotto forma di stringa del punto corrente (...,..)
+ Definire inoltre una classe ProvaPunto, con un main che legge da tastiera le coordinate di due punti, li crea come oggetti e visualizza la distanza tra i due punti.
