@@ -15,19 +15,21 @@ public class ProvaPunto {
         x1 = lettura.nextInt();
         System.out.println("Inserire coordinata y del secondo punto: ");
         y1 = lettura.nextInt();
+        Punto p2= new Punto(x1, y2);
 
-        if(p1.equals(x1, y1)){
+        if(p1.equals(p2)){
 
             System.out.println("I punti coincidono");
 
         }
         else{
 
-            System.out.println("Distanza: " + p1.Distanza(x1, y1));
+            System.out.println("Distanza: " + p1.Distanza(p2));
 
         }
 
         System.out.println(p1.tostring());
+        System.out.println(p2.toString());
 
 
 
@@ -39,3 +41,4 @@ public class ProvaPunto {
 
 
 }
+
