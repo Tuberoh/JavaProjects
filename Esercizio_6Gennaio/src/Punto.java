@@ -9,14 +9,14 @@ public class Punto {
         this.y = y;
 
     }
-    double Distanza(int x, int y){
+    double Distanza(Punto p){
 
-        return Math.sqrt((this.x-x)*(this.x-x) + (this.y-y)*(this.y-y));
+        return Math.sqrt((this.x-p.x)*(this.x-p.x) + (this.y-p.y)*(this.y-p.y));
 
     }
-    Boolean equals(int x, int y){
+    Boolean equals(Punto p){
 
-        if(this.x == x && this.y == y){
+        if(this.x == p.x && this.y == p.y){
 
             return true;
 
@@ -34,3 +34,4 @@ public class Punto {
 
 
 }
+
