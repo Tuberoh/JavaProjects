@@ -1,0 +1,29 @@
+Creare una classe CartaDaGioco descritta dal
+seguente schema:
+L’attributo seme assumerà uno tra i quattro valori C
+Q P F che significano rispettivamente
+Cuori, Quadri , Picche, Fiori mentre l’attributo valore deve essere uno dei
+seguenti caratteri: 1 2 3 4 5 6 7 J Q K.
+
+Il costruttore crea una carta con gli attributi inizializzati secondo il valore
+dei parametri dopo aver controllato che gli stessi valori siano accettabili (se
+non sono corretti mette spazio come seme e 0 come valore).
+Il metodo getValore che il carattere
+corrispondente al valore (es. 3)
+Il metodo getSeme che la stringa del seme
+corrispondente al seme(es. Fiori)
+Il metodo getColore che restituisce il colore
+rosso o nero.
+Creare nel main
+3 carte chiedendo i dati in input da tastiera.
+
+
+Creare poi la classe MazzoDiCarte
+L’attributo (variabile di istanza) Mazzo è un array di 40 carteDaGioco.
+Il costruttore MazzoDiCarte crea il mazzo con le carte in ordine di valore e di seme.
+Il metodo mischia() deve mettere in ordine casuale le carte del mazzo.
+Il metodo taglia(int n) dove n è un valore compreso tra 1 e 40 deve effettuare il taglio del mazzo alla carta n.
+Esempio se n=5 le prime 5 carte del mazzo vengono prese e spostate in fondo al mazzo
+(la sesta carta diventa la prima e quella che era la quinta carta diventa l’ultima)
+Il metodo visualizza() che scrive la successione delle carte che costituiscono il mazzo dalla prima carta all’ultima
+Scrivere un main che crea un MazzoDiCarte, lo visualizza lo mischia e lo rivisualizza
